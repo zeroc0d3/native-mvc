@@ -17,7 +17,7 @@ require('app/__model.php');
 
 /*
 * -------------------
-*     MAIN FORM
+*     MAIN ROUTES
 * -------------------
 */
 MainController::index();
