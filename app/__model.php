@@ -8,3 +8,4 @@ require(PATH_CONFIG . 'database.php');
 */
 
 require(PATH_MODEL . 'MainModel.php');
+require(PATH_MODEL . 'UserModel.php');
