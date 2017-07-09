@@ -16,4 +16,4 @@ require('app/__model.php');
 *     MAIN FORM
 * -------------------
 */
-# IndexController::index();
+MainController::index();

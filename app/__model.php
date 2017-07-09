@@ -5,4 +5,4 @@
 *  ---------------------------
 */
 
-# require(PATH_MODEL . 'MainModel.php');
+require(PATH_MODEL . 'MainModel.php');
