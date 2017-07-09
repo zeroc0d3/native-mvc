@@ -1,0 +1,36 @@
+{
+    "name": "Native MVC",
+    "description": "Native Model-View-Controller (MVC).",
+    "keywords": ["native","mvc","php", "framework"],
+    "homepage": "https://github.com/zeroc0d3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZeroC0D3 Team",
+            "email": "zeroc0d3.team@gmail.com",
+            "homepage": "https://github.com/zeroc0d3"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "app/controller/",
+            "Model\\": "app/model/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer dumpautoload -o"
+        ],
+        "post-update-cmd": [
+            "composer dumpautoload -o"
+        ]
+    },
+    "require": {
+        "vlucas/phpdotenv": "^2.2",
+        "catfan/Medoo": "^1.4",
+        "usmanhalalit/pixie": "^1.0",
+        "friendsofphp/php-cs-fixer": "^1.11",
+        "twbs/bootstrap": "^3.3",
+        "phpmailer/phpmailer": "~5.2"
+    }
+}
