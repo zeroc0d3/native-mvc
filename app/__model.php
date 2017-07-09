@@ -1,4 +1,6 @@
 <?php
+require(PATH_CONFIG . 'database.php');
+
 /*
 *  ---------------------------
 *       All Your Model
